@@ -1,0 +1,7 @@
+- name: Setup Windows 10 SDK Action
+  # You may pin to the exact commit or the version.
+  # uses: GuillaumeFalourd/setup-windows10-sdk-action@c4ff86d0279a1eb5d2544913834db63bcfc018e1
+  uses: GuillaumeFalourd/setup-windows10-sdk-action@v1.11
+  with:
+    # SDK 5-digit version to install (e.g 17763, 18362, 19041)
+    sdk-version: # default is 18362
